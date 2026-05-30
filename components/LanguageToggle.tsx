@@ -31,6 +31,7 @@ export function LanguageToggle({ className }: LanguageToggleProps) {
             currentLang === item.value
               ? "bg-white text-[#05070c]"
               : "text-slate-300 hover:text-white",
+            "min-h-9 min-w-10 px-3.5 py-2 sm:min-h-8 sm:min-w-9 sm:px-3 sm:py-1.5",
           )}
           aria-pressed={currentLang === item.value}
         >

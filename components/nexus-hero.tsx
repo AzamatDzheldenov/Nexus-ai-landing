@@ -212,7 +212,10 @@ function Navigation({
         <span className="text-base font-semibold text-white">Nexus AI</span>
       </a>
 
-      <nav className="hidden items-center gap-1 rounded-md border border-white/10 bg-white/[0.028] p-1 text-sm text-slate-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] backdrop-blur md:flex">
+      <nav
+        aria-label={copy.primaryNavigation}
+        className="hidden items-center gap-1 rounded-md border border-white/10 bg-white/[0.028] p-1 text-sm text-slate-200 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] backdrop-blur md:flex"
+      >
         {navItems.map((item) => (
           <a
             key={item.href}

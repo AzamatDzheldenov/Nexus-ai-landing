@@ -62,7 +62,7 @@ export function Footer() {
             </p>
           </div>
 
-          <nav aria-label="Footer navigation">
+          <nav aria-label={copy.navigationAria}>
             <p className="text-sm font-medium text-white">{copy.navigation}</p>
             <div className="mt-5 grid gap-3">
               {dict.nav.map((item) => (

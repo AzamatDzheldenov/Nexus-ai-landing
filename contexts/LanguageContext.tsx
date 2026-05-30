@@ -34,6 +34,7 @@ export const translations = {
     hero: {
       openMenu: "Открыть меню",
       closeMenu: "Закрыть меню",
+      primaryNavigation: "Основная навигация",
       tryFree: "Try for free",
       badge: "AI workspace для независимых команд",
       headlineTop: "Nexus AI для тех,",
@@ -384,6 +385,7 @@ export const translations = {
       description:
         "Спокойный AI-помощник для фрилансеров и небольших команд: сообщения, задачи, документы и оплаты в одном рабочем контуре.",
       navigation: "Навигация",
+      navigationAria: "Навигация в футере",
       social: "Соцсети",
       language: "Язык",
       currentLanguage: "Текущий язык",
@@ -406,6 +408,7 @@ export const translations = {
     hero: {
       openMenu: "Open menu",
       closeMenu: "Close menu",
+      primaryNavigation: "Primary navigation",
       tryFree: "Try for free",
       badge: "AI workspace for independent teams",
       headlineTop: "Nexus AI for people",
@@ -754,6 +757,7 @@ export const translations = {
       description:
         "A calm AI assistant for freelancers and small teams: messages, tasks, documents, and payments in one focused workspace.",
       navigation: "Navigation",
+      navigationAria: "Footer navigation",
       social: "Social",
       language: "Language",
       currentLanguage: "Current language",
